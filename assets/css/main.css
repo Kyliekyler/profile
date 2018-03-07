@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1789,7 +1783,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #ff2d55;
 		}
 
 	.select-wrapper {
@@ -1891,8 +1885,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #989898;
-			border-color: #989898;
+			background: #ff2d55;
+			border-color: #ff2d55;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -1970,7 +1964,7 @@
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
+			-moz-osx-font-smoothing: grayscaled;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
@@ -2092,7 +2086,7 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #4acaa8;
+					background: #ff2d55;
 					border-radius: 100%;
 					color: #ffffff;
 					display: block;
@@ -2461,8 +2455,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ffffff;
-		color: #ffffff;
+		background: #fff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2485,7 +2478,7 @@
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #ff2d55;
 		}
 
 			#header a:hover {
@@ -2550,7 +2543,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #ffffff;
+					border-top: solid 2px #fff;
 					display: block;
 					padding: 0;
 				}
@@ -2601,7 +2594,7 @@
 
 	#one:before {
 		background-image: url("../../images/banner.jpg");
-		background-position: top right;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
@@ -2798,6 +2791,8 @@
 				-moz-transition: -moz-transform 0.5s ease;
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
+				-webkit-backdrop-filter: blur(25px);
+				backdrop-filter: blur(25px);
 				transition: transform 0.5s ease;
 				display: block;
 				height: 44px;
@@ -2805,14 +2800,14 @@
 				position: fixed;
 				top: 0;
 				width: 100%;
-				z-index: 10001;
-				background: #ff2d55;
-				color: #fff;
+				z-index: 1;
+				color: #ff2d55;
 				min-width: 320px;
+				background: rgba(249, 249, 249, 0.75);
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #ff2d55;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -2830,7 +2825,7 @@
 				#titleBar .toggle {
 					text-decoration: none;
 					height: 2.75em;
-					position: absolute;
+					position: fixed;
 					top: 0;
 					width: 2.75em;
 					border: 0;
@@ -2848,14 +2843,15 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #fff;
+						background: #fff
+						z-index: 1;
 						color: #ff2d55;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
 						height: 44px;
 						line-height: 44px;
-						position: absolute;
+						position: fixed;
 						text-align: center;
 						top: 0;
 						width: 64px;
@@ -3088,3 +3084,10 @@
 			}
 
 	}
+	
+	
+
+#cont-new li {
+  display: none;
+  }
+ 
