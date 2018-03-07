@@ -1574,7 +1574,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #ff2d55 !important;
 		}
 
 	strong, b {
@@ -1591,7 +1591,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #ff2d55;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1651,16 +1651,16 @@
 		}
 
 	blockquote {
-		border-left: solid 8px #e4e4e4;
+		border-left: solid 4px #ff2d55;
 		font-style: italic;
 		margin: 0 0 2.25em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
 
 	code {
-		background: #555;
+		background: #fff;
 		border-radius: 5px;
-		color: #fff;
+		color: #c0c0c0;
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1726,7 +1726,7 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #ff2d55;
 		font-size: 3.5em;
 	}
 
@@ -2379,7 +2379,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #ff2d55;
 			color: #ffffff !important;
 		}
 
@@ -2387,14 +2387,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #5ed0b1;
+				background-color: #ff2d55;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #39c29d;
+				background-color: #ff2d55;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2414,7 +2414,7 @@
 /* Features */
 
 	.features article {
-		border-top: solid 3px #f4f4f4;
+		border-top: solid 3px #fff;
 		margin-bottom: 2.25em;
 		padding-top: 2.25em;
 	}
@@ -2461,8 +2461,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
-		color: #d1f1e9;
+		background: #ffffff;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2473,23 +2473,23 @@
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ff2d55;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #ff2d55;
 			}
 
 		#header header p {
-			color: #b6e9dc;
+			color: #ff2d55;
 		}
 
 		#header a {
-			color: #d1f1e9;
+			color: #ffffff;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #ff2d55 !important;
 			}
 
 		#header > header {
@@ -2512,7 +2512,7 @@
 			}
 
 			#header > header p {
-				color: #d1f1e9;
+				color: #ff2d55;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2533,7 +2533,7 @@
 			}
 
 				#header > footer .icons li a {
-					color: #b6e9dc;
+					color: #ff2d55;
 				}
 
 		#header > nav {
@@ -2550,7 +2550,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #ffffff;
 					display: block;
 					padding: 0;
 				}
@@ -2561,15 +2561,15 @@
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #ff2d55 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: #ff2d55;
+							color: #ffffff !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2606,16 +2606,16 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 30em;
 		width: 100%;
 	}
 
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background: #fff;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #ff2d55;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -2627,7 +2627,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
+				border-left: solid 1px #ff2d55;
 				display: inline-block;
 				font-size: 0.8em;
 				margin-left: 1em;
@@ -2806,7 +2806,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #ff2d55;
 				color: #fff;
 				min-width: 320px;
 			}
@@ -2829,10 +2829,10 @@
 
 				#titleBar .toggle {
 					text-decoration: none;
-					height: 4em;
+					height: 2.75em;
 					position: absolute;
 					top: 0;
-					width: 6em;
+					width: 2.75em;
 					border: 0;
 					outline: 0;
 					right: 0;
@@ -2848,8 +2848,8 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
-						color: #ffffff;
+						background: #fff;
+						color: #ff2d55;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
@@ -3007,8 +3007,8 @@
 		/* Off-Canvas Navigation */
 
 			#titleBar .toggle {
-				height: 4em;
-				width: 6em;
+				height: 2.75em;
+				width: 2.75em;
 			}
 
 				#titleBar .toggle:before {
