@@ -113,29 +113,8 @@
 })(jQuery);
 
 
-/* load more list */
-size_li = $("#cont-new li").size();
+/* prevent back button */
 
-x_first = 5; 
-
-$('#cont-new li:lt('+x_first+')').show();
-
-$(window).scroll(function() {
-    if($(window).scrollTop() == $(document).height() - $(window).height()) {
-        x_first = (x_first+5 <= size_li) ? x_first+5 : size_li;
-    		$('#cont-new li:lt('+x_first+')').show();
-    }
-});
-$(window).scroll(function() {
-   if($(window).scrollTop() + $(window).height() == $(document).height()) {
-       $(".load-more").hide();
-   }
-});
- $(".load-more").click(function(e) 
- {
- 		 x_first = (x_first+5 <= size_li) ? x_first+5 : size_li;
-     
-		 $('#cont-new li:lt('+x_first+')').show();
-     
- 	   return false;
- });
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
