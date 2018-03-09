@@ -5,9 +5,9 @@ function validate(){
 	var username = document.getElementById("username").value;
 	var password = document.getElementById("password").value;
 
-	if ( username == "kyliekyler" && password == "Sioson19"){
+	if ( username == "kyliekyler" && password == "kyliekyler"){
 		alert ("Login successfully");
-		window.location = "home.html"; //redirecting to other page
+		window.location = "3zh-rR7-rZ8-dBL.html"; //redirecting to other page
 		return false;
 	}
 	else{
