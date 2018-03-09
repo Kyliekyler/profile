@@ -3170,14 +3170,6 @@
   }
 }
 
-.light {
-  background: radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 60%);
-  width: 450px;
-  height: 450px;
-  background-blend-mode: lighten;
-  position: fixed;
-  pointer-events: none;
-}
 
 .js-tilt-container {
   transition: transform .1s ease;
@@ -3190,3 +3182,4 @@
 	transition-timing-function: cubic-bezier(0.42, 0, 0, 1)!important;
 	transition-duration: 1.5s;
 }
+
