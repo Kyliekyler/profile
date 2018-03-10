@@ -2537,6 +2537,7 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			border-left: solid .5px #ccc;
 		}
 
 			#header > nav ul {
