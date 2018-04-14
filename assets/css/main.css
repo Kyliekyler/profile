@@ -2465,7 +2465,6 @@
 		top: 0;
 		width: 23em;
 		right: 0;
-		border-left: solid .5px #ccc;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2537,7 +2536,6 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			border-left: solid .5px #ccc;
 		}
 
 			#header > nav ul {
@@ -2861,7 +2859,6 @@
 						top: 0;
 						width: 64px;
 						right: 0;
-						border-left: solid .5px #ccc;
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
@@ -3156,7 +3153,6 @@
   transition: filter .3s ease;
 }
 
-
 .image-shadow {
   margin: 0px 20px 10px 20px;
   height: 250px;
@@ -3171,7 +3167,6 @@
     }
   }
 }
-
 
 .js-tilt-container {
   transition: transform .1s ease;
